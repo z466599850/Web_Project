@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-  <div></div>
+  <div>我是APP</div>
 </template>
