@@ -15,6 +15,7 @@ const instance = axios.create({
 instance.interceptors.request.use(
   (config) => {
     // 在发送请求之前做些什么
+    // ElLoading.service(true)
     const userStore = useUserStore()
     if (userStore.token) {
       config.headers.Authorization = userStore.token
